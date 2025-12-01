@@ -10,7 +10,7 @@ void printVec(int *vec, size_t dim){
 
 //Mensaje random
 
-int maint(void){
+int main(void){
     printf("Hello world!");
     int vec[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
     printvec(vec, 10);
