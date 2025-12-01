@@ -3,9 +3,9 @@
 
 void printVec(int *vec, size_t dim){
     for(int i = 0; i < dim; i++){
-        printf("%d ", vec[i]);
+        printf("%d .", vec[i]);
     }
-    puts(".");
+    puts("..");
 }
 
 int maint(void){
